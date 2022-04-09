@@ -1,0 +1,16 @@
+[package]
+name = "astreuos-accounts"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Astreuos Accounts is a library for managing accounts and applying transactions to the Astreuos Accounts State."
+repository = "https://github.com/astreuos/rust-astreuos-accounts"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+astreuos-transaction = "0.2.0"
+astro-format = "0.4.0"
+fides = "2.2.1"
+opis = "3.0.7"
